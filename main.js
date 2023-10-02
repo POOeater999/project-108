@@ -56,11 +56,11 @@ function speak(){
     },10000)
 
     setTimeout(function(){
-        img_id="selfie1";
+        img_id="selfie3";
         take_snapshot();
-        speak_data= "taking your next selfie seconds"
-        var utterThis = new SpeechSynthesisUtterance(speak_data);
-        synth.speak(utterThis);
+       
+        
+            
     },15000)
 
 
